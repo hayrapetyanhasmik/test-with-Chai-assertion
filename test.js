@@ -29,7 +29,7 @@ it("Division of two numbers", function(){
 });
 });*/
 
-describe('Mocha Hooks', function(){
+/* describe('Mocha Hooks', function(){
 
     before('Execute Before All Tests', function(){
         console.log('Execute Before All Tests');
@@ -50,4 +50,52 @@ describe('Mocha Hooks', function(){
     it('Mocha Hooks Test', function(){
         console.log('Mocha - This is a Test for Mocha Hooks');
     });
+});*/
+
+
+/* let assert = require("assert");
+describe("Mathematical Operations", function(){
+    let a = 10;
+    let b = 10;
+        it("Addition of two numbers", function(){
+    let c = a+b;
+        assert.equal(c,20);
+    });
+    
+        it.only("Subtraction of two numbers", function(){
+    let c = a-b;
+        assert.equal(c,0);
+  });
+}); */
+
+/* let assert = require("assert");
+describe("Mathematical Operations", function(){
+    let a = 10;
+    let b = 10;
+        it("Addition of two numbers", function(){
+    let c = a+b;
+        assert.equal(c,20);
+    });
+    
+        it.skip("Subtraction of two numbers", function(){
+    let c = a-b;
+        assert.equal(c,0);
+  });
+}); */
+
+let assert = require("assert");
+describe("Mathematical Operations", function(){
+    let a = 10;
+    let b = 10;
+        it("Addition of two numbers", function(){
+    let c = a+b;
+        assert.equal(c,20);
+    });
+    
+        it("Pending test");
+
+        it("Multiplication of two numbers", function(){
+    let c = a*b;
+        assert.equal(c,100);
+});
 });
