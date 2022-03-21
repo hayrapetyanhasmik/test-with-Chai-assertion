@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "\"My first test with mocha\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "Mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "main"
+  },
+  "keywords": [
+    "test",
+    "mocha",
+    "automation"
+  ],
+  "author": "Hasmik>",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^9.2.2"
+  }
+}
