@@ -18,7 +18,7 @@ describe("Mathematical Operations", function(){
     let a = 10;
     let b = 10;
     let c = a*b;
-    assert.equal(c,100);
+    assert.equal(c,10);
 });
 
 it("Division of two numbers", function(){
