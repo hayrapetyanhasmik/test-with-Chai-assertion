@@ -106,7 +106,7 @@ describe("Mathematical Operations-Test Suits", function(){
     let a = 10;
     let b = 10;
         it("Addition of two numbers", function(done){
-       
+    setTimeout(done, 3000);   
     let c = a+b;
         assert.equal(c,20);
     });
