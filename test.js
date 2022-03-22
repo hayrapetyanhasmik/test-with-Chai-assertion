@@ -102,10 +102,11 @@ describe("Mathematical Operations", function(){
 
 let assert = require("assert");
 describe("Mathematical Operations-Test Suits", function(){
-    this.timeout(500);
+    this.timeout(5000);
     let a = 10;
     let b = 10;
-        it("Addition of two numbers", function(done){
+        it.only("Addition of two numbers", function(done){
+    this.timeout(500);
     setTimeout(done, 3000);   
     let c = a+b;
         assert.equal(c,20);
