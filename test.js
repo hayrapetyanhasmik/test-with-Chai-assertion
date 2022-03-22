@@ -1,4 +1,4 @@
-let assert = require("assert");
+/*let assert = require("assert");
 describe("Mathematical Operations-Test Suits", function(){
     beforeEach(function(done){
         this.timeout(5000);
@@ -26,4 +26,5 @@ describe("Mathematical Operations-Test Suits", function(){
     let c = a/b;
     assert.equal(c,1);
 });
-});
+});*/
+
