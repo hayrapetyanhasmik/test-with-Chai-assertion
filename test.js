@@ -83,7 +83,7 @@ describe("Mathematical Operations", function(){
   });
 }); */
 
-let assert = require("assert");
+/*let assert = require("assert");
 describe("Mathematical Operations", function(){
     let a = 10;
     let b = 10;
@@ -97,5 +97,32 @@ describe("Mathematical Operations", function(){
         it("Multiplication of two numbers", function(){
     let c = a*b;
         assert.equal(c,100);
+});
+});*/
+
+let assert = require("assert");
+describe("Mathematical Operations-Test Suits", function(){
+    this.timeout(500);
+    let a = 10;
+    let b = 10;
+        it("Addition of two numbers", function(done){
+       
+    let c = a+b;
+        assert.equal(c,20);
+    });
+    
+        it("Subtraction of two numbers", function(){
+    let c = a-b;
+        assert.equal(c,0);
+  });
+
+        it("Multiplication of two numbers", function(){
+    let c = a*b;
+        assert.equal(c,100);
+});
+
+        it("Division of two numbers", function(){
+    let c = a/b;
+    assert.equal(c,1);
 });
 });
