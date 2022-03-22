@@ -92,7 +92,7 @@ describe("Mathematical Operations", function(){
         assert.equal(c,20);
     });
     
-        it("Pending test");
+        it("Pending test"); // without a callback function
 
         it("Multiplication of two numbers", function(){
     let c = a*b;
