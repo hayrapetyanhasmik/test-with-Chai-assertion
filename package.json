@@ -4,7 +4,7 @@
   "description": "\"My first test with mocha\"",
   "main": "index.js",
   "scripts": {
-    "test": "Mocha"
+    "test": "Mocha"  
     
   },
   "repository": {
@@ -19,7 +19,8 @@
   "author": "Hasmik>",
   "license": "ISC",
   "dependencies": {
-    "mocha": "^9.2.2"
+    "mocha": "^9.2.2",
+    "chai": "^4.3.6"
   },
   "devDependencies": {
     "chai": "^4.3.6"
