@@ -7,6 +7,8 @@ const should = chai.should();
 //assert - TDD
 const assert = chai.assert; 
 
+chai.config.truncateThreshold = 0;
+
 let a = 1, b = 1;
 expect(a).to.be.equals(b);
 (a).should.be.equals(b);
@@ -28,7 +30,7 @@ assert.deepEqual(x,y);
 
 expect(x).to.be.an("object").and.to.be.deep.equals(y);
 
-(x).should.be.an("object").and.to.be.deep.equals(y);
+(x).should.be.an("object").and.be.deep.equals(y);
 
 //arrays
 let arr = [1,2,3,4];
