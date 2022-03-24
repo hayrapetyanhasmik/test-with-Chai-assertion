@@ -8,6 +8,8 @@ const should = chai.should();
 const assert = chai.assert; 
 
 chai.config.truncateThreshold = 0;
+//chai.config.showDiff = true; - shows differences 
+//chai.config.includeStack = true;
 
 let a = 1, b = 1;
 expect(a).to.be.equals(b);
