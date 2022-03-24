@@ -15,3 +15,5 @@ expect(x).to.be.an("object");
 //expect(x).to.be.equals(y, "x and y are not equal");
 
 expect(x).to.be.deep.equals(y);
+
+expect(x).to.be.an("object").and.to.be.deep.equals(y);
