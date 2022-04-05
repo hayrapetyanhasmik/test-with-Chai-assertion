@@ -4,7 +4,7 @@
   "description": "\"My first test with mocha\"",
   "main": "index.js",
   "scripts": {
-    "test": "Mocha"  
+    "test": "Mocha" 
     
   },
   "repository": {
